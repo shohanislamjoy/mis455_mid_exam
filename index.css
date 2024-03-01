@@ -1,0 +1,63 @@
+.hero {
+    background-image: url('/assets/coffee_1.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #e5e8e6;
+    text-align: center;
+    padding: 200px 0;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.testimonials-section {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.testimonial {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial img {
+    width: 100px;
+    height: auto;
+    border-radius: 16%;
+    margin-bottom: 15px;
+}
+
+.testimonial img:hover {
+    transform: scale(1.1);
+}
+
+.testimonial p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.testimonial cite {
+    font-style: italic;
+    font-size: 14px;
+    color: #777;
+}
