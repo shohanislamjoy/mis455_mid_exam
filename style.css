@@ -17,13 +17,13 @@ nav .logo {
 }
 
 nav h1 {
-    font-size: 46spx;
+    font-size: 46px;
     font-family: 'Dancing Script';
 }
 
 nav {
     background-color: #0f0d0c;
-    padding: 30px 10px;
+    padding: 24px 8px;
 }
 
 nav {
@@ -34,11 +34,6 @@ nav {
     width: 100%;
     padding: 0 25px;
     box-sizing: border-box;
-}
-
-h1 {
-    font-size: 2rem;
-    font-family: 'Dancing Script';
 }
 
 nav ul {
