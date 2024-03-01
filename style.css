@@ -1,9 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Dancing+Script:400,700);
+@import url('https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&family=Protest+Strike&family=Roboto+Mono:ital,wght@0,600;1,600&display=swap');
 body {
     margin: 0;
     padding: 0;
     background-color: #f7f7f7;
     color: #2b2b2b;
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
 }
 
 
@@ -13,11 +15,11 @@ nav .logo {
     background-image: linear-gradient(to right, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
     -webkit-background-clip: text;
     color: transparent;
-    font-size: 48px;
+    font-size: 44px;
 }
 
 nav h1 {
-    font-size: 46px;
+    font-size: 40px;
     font-family: 'Dancing Script';
 }
 
@@ -50,7 +52,7 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 28px;
+    font-size: 24px;
 }
 
 
@@ -60,7 +62,7 @@ nav ul li a {
     display: flex;
     flex-flow: row wrap;
     padding: 30px 30px 20px 30px;
-    color: #2f2f2f;
+    color: #010101;
     background-color: #fff;
     border-top: 1px solid #e5e5e5;
 }
@@ -71,7 +73,7 @@ nav ul li a {
 }
 
 .footer__logo {
-    font-family: 'Pacifico', cursive;
+    font-family: "Ojuju", sans-serif;
     font-weight: 400;
     text-transform: lowercase;
     font-size: 1.5rem;
@@ -93,7 +95,7 @@ nav ul li a {
 
 .footer address {
     font-style: normal;
-    color: #999;
+    color: #424242;
 }
 
 .email_button {
@@ -188,7 +190,7 @@ nav ul li a {
 .legal {
     display: flex;
     flex-wrap: wrap;
-    color: #999;
+    color: #2e2d2d;
 }
 
 .legal__links {
