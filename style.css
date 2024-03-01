@@ -9,6 +9,18 @@ body {
 
 /* nav-bar*/
 
+nav .logo {
+    background-image: linear-gradient(to right, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 48px;
+}
+
+nav h1 {
+    font-size: 46spx;
+    font-family: 'Dancing Script';
+}
+
 nav {
     background-color: #0f0d0c;
     padding: 30px 10px;
@@ -43,7 +55,7 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 28px;
 }
 
 
@@ -58,10 +70,6 @@ nav ul li a {
     border-top: 1px solid #e5e5e5;
 }
 
-.footer>* {
-    flex: 1 100%;
-}
-
 .footer__addr {
     margin-right: 1.25em;
     margin-bottom: 2em;
@@ -72,6 +80,9 @@ nav ul li a {
     font-weight: 400;
     text-transform: lowercase;
     font-size: 1.5rem;
+    background-image: linear-gradient(to right, #7a00ff, #ff00c8, #ff0000);
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 .footer__addr h2 {
